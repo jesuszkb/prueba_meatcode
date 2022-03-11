@@ -1,0 +1,35 @@
+.hero {
+  height: 100vh;
+}
+
+.hero-text {
+  color: #24272A !important;
+  font-weight: 600;
+  font-size: 6rem;
+  margin-left: 10%;
+}
+
+.hero-sc {
+  line-height: 90px;
+  margin-left: 5%;
+}
+
+.hero-bg-sc {
+  background-image: url('../img/brush.png');
+  background-size: 80%;
+  background-position: -120% 84%;
+}
+
+@media (max-width: 960px) {
+  .hero-bg-sc {
+    background-size: 120%;
+    background-position: 180% 70%;
+  }
+  .hero-social-media {
+    padding-top: 10%;
+  }
+}
+
+.hero-social-media {
+  margin-top: 10%;
+}
