@@ -4,22 +4,30 @@
 
 .font-caveat {
   font-family: 'Caveat', cursive !important;
+  color: #3F454A !important;
 }
 
-.section-title {
-  height: 130px;
-  font-weight: 600;
-  font-size: 4rem;
-  background-image: url('../img/brush.png');
+.section-title > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 38px;
+}
+.section-title .brush {
+  height: 85px;
+  background-image: url('../img/BRUSH-5-1.png');
   background-size: 40%;
   background-position: 50% 100%;
+  margin-top: -25px;
 }
 
 @media (max-width: 960px) {
-  .section-title {
-    height: 120px;
+  .section-title > h2 {
+    font-size: 50px;
+  }
+  .section-title .brush {
     background-size: 60%;
-    background-position: 50% 100%;
+    margin-top: -55px;
   }
 }
 
@@ -30,4 +38,24 @@
 
 .v-btn:before {
   background-color: none !important;
+}
+
+.card-article {
+  min-height: 350px;
+  height: 350px;
+  max-height: 350px;
+}
+
+.v-card__title {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.v-card__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: -5px !important;
+  /* white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; */
 }

@@ -96,6 +96,7 @@ export default {
     sendForm() {
       if (this.valid) {
         this.loading = true;
+        this.responseForm = false;
         const keys = Object.keys(this.formD);
         const formData = new FormData();
         keys.forEach(k => {
@@ -122,6 +123,10 @@ export default {
             this.colorAlert = "error";
             this.responseForm = true;
           });
+      } else {
+        this.colorAlert = "error";
+        this.message = "Debe rellenar el formulario";
+        this.responseForm = true;
       }
     }
   }

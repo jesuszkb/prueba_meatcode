@@ -8,7 +8,7 @@
         v-for="(article, i) in articles"
         :key="i"
       >
-        <v-card :href="article.url" target="_blank">
+        <v-card :href="article.url" target="_blank" class="card-article" outlined>
           <v-img :src="article.image" height="200px"></v-img>
           <v-card-title>
             {{ article.title }}
