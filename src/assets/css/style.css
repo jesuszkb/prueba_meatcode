@@ -49,6 +49,7 @@
 .v-card__title {
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
 }
 
 .v-card__subtitle {
