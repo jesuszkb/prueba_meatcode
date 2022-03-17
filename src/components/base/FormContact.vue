@@ -18,7 +18,6 @@
                 <v-text-field
                   v-model="formD.firstname"
                   :rules="nameRules"
-                  :counter="10"
                   label="NOMBRE"
                   outlined
                   required
@@ -28,7 +27,6 @@
                 <v-text-field
                   v-model="formD.lastname"
                   :rules="nameRules"
-                  :counter="10"
                   label="APELLIDO"
                   outlined
                   required
@@ -81,8 +79,7 @@ export default {
     valid: false,
     formD: {},
     nameRules: [
-      v => !!v || "Campo obligatorio",
-      v => v.length <= 10 || "Debe tener menos de 10 caracteres"
+      v => !!v || "Campo obligatorio"
     ],
     emailRules: [
       v => !!v || "Campo obligatorio",

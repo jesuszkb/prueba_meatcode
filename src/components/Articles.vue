@@ -4,14 +4,14 @@
       <v-col
         md="4"
         sm="6"
-        class="pt-0"
+        class="pt-0 mt-4"
         v-for="(article, i) in articles"
         :key="i"
       >
         <v-card
           :href="article.url"
           target="_blank"
-          class="card-article"
+          class="card-article v-card"
           outlined
         >
           <v-img :src="article.image" height="200px"></v-img>

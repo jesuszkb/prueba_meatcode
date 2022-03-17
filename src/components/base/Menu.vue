@@ -1,6 +1,6 @@
 <template>
   <div id="menu">
-    <v-card outlined>
+    <v-card outlined class="v-card">
       <v-list flat>
         <v-list-item-group color="primary">
           <v-list-item
