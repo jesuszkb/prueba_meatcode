@@ -5,7 +5,7 @@
         <v-progress-circular
           indeterminate
           size="64"
-          color="light-green darken-1"
+          color="primary"
         ></v-progress-circular>
       </v-overlay>
       <Hero />

@@ -1,12 +1,12 @@
 <template>
-  <v-parallax style="height: 100vh" :src="require('@/assets/img/hero.png')">
+  <div class="hero">
     <v-row>
       <v-col cols="6">
         <div class="hero-text font-caveat">
           Logo
         </div>
       </v-col>
-      <v-col cols="6" class="text-right pr-10">
+      <v-col cols="6" class="text-right mt-12 pt-6 pr-10">
         <div class="hero-social-media">
           <v-btn
             class="blue--text mr-4"
@@ -49,7 +49,8 @@
         </div>
       </v-col>
     </v-row>
-  </v-parallax>
+    <div class="hero-gradient"></div>
+  </div>
 </template>
 
 <script>

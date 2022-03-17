@@ -1,35 +1,49 @@
 .hero {
-  height: 100vh;
+  position: relative;
+  background-image: url('../img/hero.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 120vh;
+}
+
+.hero-gradient {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  bottom: 0px;
+  background: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 32.22%, rgba(255, 255, 255, 0.71) 61.99%, rgba(255, 255, 255, 0.0729167) 93.72%, rgba(255, 255, 255, 0) 93.72%);
 }
 
 .hero-text {
   color: #24272A !important;
-  font-weight: 600;
-  font-size: 6rem;
+  font-weight: 700;
+  font-size: 120px;
   margin-left: 10%;
 }
 
 .hero-sc {
-  line-height: 90px;
+  line-height: 100px;
   margin-left: 5%;
+  height: 250px;
 }
 
 .hero-bg-sc {
+  margin-top: 30px;
   background-image: url('../img/brush.png');
-  background-size: 80%;
-  background-position: -120% 84%;
+  background-size: 95%;
+  background-position: -700% 220%;
 }
 
 @media (max-width: 960px) {
   .hero-bg-sc {
-    background-size: 120%;
-    background-position: 180% 70%;
+    margin-top: 120px;
+    background-image: none;
   }
   .hero-social-media {
-    padding-top: 10%;
+    padding-top: 6%;
   }
-}
-
-.hero-social-media {
-  margin-top: 10%;
 }
