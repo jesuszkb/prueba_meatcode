@@ -39,9 +39,13 @@
 }
 
 @media (max-width: 960px) {
+  .hero {
+    background-image: url('../img/hero-responsive.png');
+  }
   .hero-bg-sc {
-    margin-top: 120px;
-    background-image: none;
+    margin-top: 80px;
+    background-size: 95%;
+    background-position: -500% 80%;
   }
   .hero-social-media {
     padding-top: 6%;

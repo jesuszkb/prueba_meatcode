@@ -9,7 +9,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "/home",
     name: "Home",
     component: Home
   },
@@ -27,6 +27,10 @@ const routes = [
     path: "/consejos",
     name: "Consejos",
     component: Consejos
+  },
+  {
+    path: "*",
+    redirect: { name: "Home" }
   }
 ];
 
