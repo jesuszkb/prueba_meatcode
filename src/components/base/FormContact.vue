@@ -53,7 +53,7 @@
                 <v-btn
                   :disabled="loading"
                   color="primary"
-                  class="font-weight-bold"
+                  class="font-weight-bold btn-form"
                   rounded
                   x-large
                   :loading="loading"
@@ -78,9 +78,7 @@ export default {
     loading: false,
     valid: false,
     formD: {},
-    nameRules: [
-      v => !!v || "Campo obligatorio"
-    ],
+    nameRules: [v => !!v || "Campo obligatorio"],
     emailRules: [
       v => !!v || "Campo obligatorio",
       v => /.+@.+/.test(v) || "El mail debe ser válido"

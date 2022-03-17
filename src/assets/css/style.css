@@ -31,13 +31,13 @@
   }
 }
 
-.v-btn:hover::before {
+.btn-form:hover::before {
   background-color: #009CD9 !important;
   opacity: 1 !important;
 }
 
-.v-btn:before {
-  background-color: none !important;
+.btn-form:before {
+  background-color: #D8AD3D !important;
 }
 
 .card-article {

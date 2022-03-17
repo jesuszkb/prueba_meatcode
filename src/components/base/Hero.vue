@@ -1,42 +1,43 @@
 <template>
   <div class="hero">
     <v-row>
-      <v-col cols="6">
+      <v-col md="6" sm="4" xs="4">
         <div class="hero-text font-caveat">
           Logo
         </div>
       </v-col>
-      <v-col cols="6" class="text-right mt-12 pt-6 pr-10">
+      <v-col
+        cols="12"
+        class="text-right mt-12 pt-6 pr-10"
+        style="position: fixed; z-index: 999;"
+      >
         <div class="hero-social-media">
           <v-btn
-            class="blue--text mr-4"
+            class="blue--text mr-4 btn-social-media"
             icon
             href="https://www.facebook.com"
             target="_blank"
             outlined
-            large
           >
-            <v-icon size="30px">mdi-facebook</v-icon>
+            <v-icon size="25px">fa-brands fa-facebook-f</v-icon>
           </v-btn>
           <v-btn
-            class="red--text mr-4"
+            class="red--text mr-4 btn-social-media"
             icon
             href="https://twitter.com"
             target="_blank"
             outlined
-            large
           >
-            <v-icon size="30px">mdi-instagram</v-icon>
+            <v-icon size="25px">fa-brands fa-instagram</v-icon>
           </v-btn>
           <v-btn
-            class="orange--text"
+            class="orange--text btn-social-media"
             icon
             href="https://www.youtube.com"
             target="_blank"
             outlined
-            large
           >
-            <v-icon size="30px">mdi-youtube</v-icon>
+            <v-icon size="25px">fa-brands fa-youtube</v-icon>
           </v-btn>
         </div>
       </v-col>

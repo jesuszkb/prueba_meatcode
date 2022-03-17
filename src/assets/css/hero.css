@@ -38,16 +38,30 @@
   background-position: -700% 220%;
 }
 
+.btn-social-media {
+  border: 3px solid !important;
+  width: 62px !important;
+  height: 62px !important;
+  backdrop-filter: blur(14px);
+}
+
 @media (max-width: 960px) {
   .hero {
     background-image: url('../img/hero-responsive.png');
   }
   .hero-bg-sc {
-    margin-top: 80px;
-    background-size: 95%;
-    background-position: -500% 80%;
+    margin-top: 180px;
+    background-image: none;
+  }
+  .hero-sc {
+    writing-mode: horizontal-rl;
+    text-orientation: upright;
+  }
+  .hero-text {
+    margin-left: 2%;
   }
   .hero-social-media {
-    padding-top: 6%;
+    padding-top: 2%;
+    margin-right: -6%;
   }
 }

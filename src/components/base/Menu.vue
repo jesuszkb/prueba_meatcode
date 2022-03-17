@@ -16,7 +16,7 @@
               ></v-list-item-title>
             </v-list-item-content>
             <v-list-item-icon v-if="item.page == $route.name">
-              <v-icon>mdi-arrow-right</v-icon>
+              <v-icon>fa-solid fa-arrow-right</v-icon>
             </v-list-item-icon>
           </v-list-item>
         </v-list-item-group>

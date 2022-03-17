@@ -12,10 +12,10 @@
       <v-container>
         <SectionTitle :title="sectionTitle" />
         <v-row>
-          <v-col cols="3">
+          <v-col md="3" sm="12" xs="12">
             <Menu />
           </v-col>
-          <v-col cols="9">
+          <v-col md="9" sm="12" xs="12">
             <router-view @sectionTitle="handleSecTitle" />
           </v-col>
         </v-row>
